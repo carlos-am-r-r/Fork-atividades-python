@@ -11,7 +11,6 @@ while True:
          ctt= ctt + 1
      soma=soma+valor
 media = soma / ct
-
 print("soma dos valores",soma )
 print("valores maiores que 20:",ctt)
 print("Média da turma:", media)
