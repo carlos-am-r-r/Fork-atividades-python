@@ -1,0 +1,18 @@
+ct= 0
+ctt = 0
+soma= 0
+print(" digite 0 para sair")
+while True:
+     valor = int(input("digite o valor:"))
+     if valor == 0:
+         break
+     ct = ct + 1
+     if valor > 20:
+         ctt= ctt + 1
+     soma=soma+valor
+media = soma / ct
+
+print("soma dos valores",soma )
+print("valores maiores que 20:",ctt)
+print("Média da turma:", media)
+print("quantidade de numero:",ct)

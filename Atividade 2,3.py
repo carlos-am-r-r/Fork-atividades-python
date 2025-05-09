@@ -1,0 +1,16 @@
+ct = 0
+ctt = 0
+cttt = 0
+print("digite 0 para sair")
+while True:
+     valor = int(input("digite o valor:"))
+     if valor == 0:
+         break
+     ct = ct + 1
+     if valor >= 5:
+         ctt= ctt + 1
+     if valor < 5:
+         cttt = cttt + 1
+print("alunos aprovados:",ctt)
+print(" alunos reprovados",cttt)
+print("quantidade de alunos que fizeram a prova",ct)
