@@ -4,17 +4,14 @@ while True:
      valor = int(input("digite o valor:"))
      if valor == 0:
          break
-     ct = ct + 1
      if valor % 2 == 0:
          ctpar= ctpar + 1
          somapar = somapar + valor
      if valor % 2 == 1:
          ctimpar= ctimpar + 1
-         somaimpar= ctimpar + valor
-mediapar = somapar/ctpar
-mediaimpar = somaimpar/ ctimpar
-print(f"media dos impares: {mediaimpar}")
-print(f"media dos par: {somapar/ctpar}")
+         #linha antiga: (somaimpar = ctimpar + valor)
+         somaimpar= somaimpar + valor
+print(f"media dos ímpares: {somaimpar/ctimpar}\nmedia dos pares: {somapar/ctpar}")
 
 
 
