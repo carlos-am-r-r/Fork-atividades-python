@@ -1,9 +1,5 @@
-ct= 0
-ctpar = 0
-ctimpar= 0
-somapar = 0
-somaimpar = 0
-print(" digite 0 para sair")
+ct=ctpar=ctimpar=somapar=somaimpar=0
+print("digite 0 para sair")
 while True:
      valor = int(input("digite o valor:"))
      if valor == 0:
@@ -15,11 +11,10 @@ while True:
      if valor % 2 == 1:
          ctimpar= ctimpar + 1
          somaimpar= ctimpar + valor
-
 mediapar = somapar/ctpar
 mediaimpar = somaimpar/ ctimpar
-print("media dos impares:",mediaimpar)
-print("media dos par:",mediapar)
+print(f"media dos impares: {mediaimpar}")
+print(f"media dos par: {somapar/ctpar}")
 
 
 
