@@ -1,0 +1,7 @@
+valor1 = int(input("coloque o valor:"))
+valor2 = int(input("coloque o valor:"))
+valor3 = int(input("coloque o valor:"))
+#aplicação de otimização de linhas
+list = valor1, valor2, valor3
+list = max(list)
+print(list)
