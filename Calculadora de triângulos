@@ -3,7 +3,7 @@ valor2=float(input('Selecione o segundo valor:'))
 valor3=float(input('selecione o terceiro valor:'))
 tri=valor1, valor2, valor3
 hipotenusa = max(tri)
-if valor1+valor2+valor3 < hipotenusa*2:
+if valor1+valor2+valor3 > hipotenusa*2:
    if valor1 == valor2 == valor3:
        print("é um triangulo equilatero")
    elif valor1 == valor2 or valor1 == valor3 or valor2 == valor3:
