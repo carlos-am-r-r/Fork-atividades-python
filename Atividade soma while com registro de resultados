@@ -8,9 +8,9 @@ while True:
          break
      ct = ct + 1
      if valor >= 5:
-         ctt= ctt + 1
+         ctt = ctt + 1
      if valor < 5:
          cttt = cttt + 1
 print("alunos aprovados:",ctt)
-print(" alunos reprovados",cttt)
+print("alunos reprovados",cttt)
 print("quantidade de alunos que fizeram a prova",ct)
